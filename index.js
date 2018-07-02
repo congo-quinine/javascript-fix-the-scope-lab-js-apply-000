@@ -5,8 +5,8 @@ function myAnimal() {
 }
 myAnimal();
 
-function yourAnimal() {
-  if (animal === 'dog'){
+function yourAnimal(str) {
+  if (str === 'dog'){
     animal = 'cat';
   }
   // How can we make sure that this function
@@ -14,7 +14,7 @@ function yourAnimal() {
   // P.S.: You can't just hard-code 'cat' below
   return animal
 }
-yourAnimal();
+yourAnimal(animal);
 
 function add2(n) {
   const two = 2
